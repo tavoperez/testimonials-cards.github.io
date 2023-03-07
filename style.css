@@ -15,7 +15,8 @@ body{
     grid-template-areas: 
     "a a b c"
     "d e e c";
-    width: 88%;
+    margin: 0px 40px;
+    /* width: 88%; */
     gap: 25px;
 }
 article{
@@ -59,7 +60,7 @@ article:nth-child(5){
 .item-1{
     display: grid;
     grid-template-columns: 4rem 1fr;
-    grid-template-rows: 1rem 4rem;
+    grid-template-rows: 1rem 2rem;
     min-height: 10%;
 }
 /* content */
@@ -70,7 +71,7 @@ article:nth-child(5){
     justify-items: center;
 }
 p{
-    line-height: 23px;
+    line-height: 21px;
 }
 h5{
     opacity: 50%;
